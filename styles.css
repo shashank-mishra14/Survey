@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #welcome-screen,
+  #survey-screen,
+  #confirmation-dialog,
+  #thank-you-screen {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  textarea {
+    width: 100%;
+    resize: none;
+  }
+  
+  #rating-container,
+  #recommendation-container,
+  #text-container {
+    margin-top: 20px;
+  }
+  
+  #rating-input,
+  #recommendation-input,
+  #text-input {
+    margin-top: 10px;
+  }
+  
+  #previous-button,
+  #next-button,
+  #skip-button {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #previous-button[disabled],
+  #next-button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  #confirmation-dialog p {
+    margin-bottom: 20px;
+  }
+  
+  #confirmation-dialog button {
+    margin-right: 10px;
+  }
+  
